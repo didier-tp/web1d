@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+a:visited {
+	color: blue;
+}
+
+.header {
+	background-color: lightgrey;
+	height:60px;
+}
+
+.logo {
+	position:absolute;
+	right:50px;
+	top:9px;
+}
