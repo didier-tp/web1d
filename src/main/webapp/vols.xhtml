@@ -18,6 +18,8 @@
 		Ville de départ : <h:selectOneMenu value="#{volBean.villeChoisie}"
 				valueChangeListener="#{volBean.recupVolsOnNewChoixVille}">
 				<f:ajax event="change" render="zonetableau" />
+				<f:selectItem itemLabel="Sélectionnez une ville" itemValue="#{null}"
+					noSelectionOption="true" value="#{volBean.villeChoisie}" />
 				<f:selectItems value="#{volBean.listeLocalites}" var="v"
 					itemValue="#{v.ville}" itemLabel="#{v.ville},#{v.aeroport}" />
 			</h:selectOneMenu>
