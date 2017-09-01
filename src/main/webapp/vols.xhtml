@@ -40,7 +40,7 @@
 		</p:tabView>
 		<br />
 		<h:panelGroup id="zonetableau">
-			<h:panelGroup rendered="#{volBean.villeChoisie != null}">
+			<h:panelGroup rendered="#{not empty volBean.listeVols}">
 				<h3>
 					Vols au départ de
 					<h:outputText value="#{volBean.villeChoisie}" />
