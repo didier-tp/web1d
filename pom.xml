@@ -12,6 +12,11 @@
 		<org.apache.myfaces.version>2.1.5</org.apache.myfaces.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>5.0</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
